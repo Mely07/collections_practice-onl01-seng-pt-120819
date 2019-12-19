@@ -32,7 +32,7 @@ def sum_array (array)
 end
 
 def add_s (array)
-  return array.each_with_index.collect { |word, index|
+  return array.each_with_index.collect {|word, index|
      if index != 1 
         "#{word}s"
       else 
