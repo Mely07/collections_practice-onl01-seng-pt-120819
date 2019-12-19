@@ -32,12 +32,10 @@ def sum_array (array)
 end
 
 def add_s (array)
-  if (array.length == 2) 
-    
   array.each do |word|
     def hamburger(toppings)
-array.map do |topping|
-   puts "I love #{topping} on my burgers!"
+array.map do |words|
+   return #{word} + "s"
  end
 End
 
