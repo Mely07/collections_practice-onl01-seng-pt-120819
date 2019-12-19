@@ -34,9 +34,9 @@ end
 def add_s (array)
   return array.each_with_index.collect { |word, index|
      if index != 1 
-       puts "#{word}s"
+        "#{word}s"
       else 
-        puts array[1]
+         array[1]
       end
    }
 end
