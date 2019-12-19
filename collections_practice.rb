@@ -32,11 +32,7 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.each do |word|
-    def hamburger(toppings)
-array.map do |words|
-   return #{word} + "s"
+  array.map do |words|
+  return #{word} + "s"
  end
-End
-
-  end
+end
