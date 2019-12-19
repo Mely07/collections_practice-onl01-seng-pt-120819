@@ -35,8 +35,10 @@ def add_s (array)
   if (array.length == 2) 
     
   array.each do |word|
-    word << "s"
-  end
-    return array
-    end
+    def hamburger(toppings)
+array.map do |topping|
+   puts "I love #{topping} on my burgers!"
+ end
+End
+
   end
