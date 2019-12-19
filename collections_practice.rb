@@ -32,10 +32,9 @@ def sum_array (array)
 end
 
 def add_s (array)
-  new_array << array[1]
+  if array.length < 2 || array.length >3
   array.each do |word|
     word << "s"
     end
-    new_array << array
-    return new_array
+    return array
     end
