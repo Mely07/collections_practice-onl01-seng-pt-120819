@@ -32,7 +32,8 @@ def sum_array (array)
 end
 
 def add_s (array)
-  if (array.length < 2) || (array.length > 3)
+  if (array.length == 2) 
+    
   array.each do |word|
     word << "s"
   end
