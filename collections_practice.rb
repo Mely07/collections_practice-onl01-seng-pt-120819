@@ -35,7 +35,7 @@ def add_s (array)
  return [1,2].each_with_index.collect{|element, index| }
  
  array.each_with_index.collect { |word, index|
-     if array.index != "#{animal} number #{index + 1}"
+     if aindexrray. != "#{animal} number #{index + 1}"
    }
 end
 
