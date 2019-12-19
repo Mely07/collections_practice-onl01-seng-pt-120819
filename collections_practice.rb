@@ -10,15 +10,15 @@ def sort_array_char_count (array)
   return array.sort {|a, b| a.length <=> b.length}
 end
 
+def swap_elements (array)
 
+end
 
 def reverse_array (array)
   return array.reverse
 end
 
-def kesha_maker (array)
-  array.each {|i| i[2]= "$"}
-end
+
 
 def find_a (array)
   array.select { |word| word.start_with?('a') }
