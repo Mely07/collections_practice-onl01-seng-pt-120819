@@ -39,6 +39,7 @@ def add_s (array)
        puts "#{word}s"
       else 
         puts array[1]
+      end
    }
    return array
 end
