@@ -30,11 +30,4 @@ def sum_array (array)
   array.inject { |sum, n| sum + n }
 end
 
-def add_s (array)
-  deleted = array.delete_at(1)
-   array.each do |word|
-    word << "s"
-   end
-  array.insert (1, deleted)
-  return array
-end
+
