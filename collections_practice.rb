@@ -31,10 +31,10 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.deletet(array[1])
+  new_array << array[1]
   array.each do |word|
     word << "s"
     end
-    array.insert (1, array[1])
-    return array
+    new_array << array
+    return new_array
     end
