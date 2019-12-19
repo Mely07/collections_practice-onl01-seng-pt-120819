@@ -18,8 +18,6 @@ def reverse_array (array)
   return array.reverse
 end
 
-
-
 def find_a (array)
   array.select { |word| word.start_with?('a') }
 end
