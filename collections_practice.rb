@@ -32,7 +32,6 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.map do |words|
-  return #{word} + "s"
- end
+  return array[0] << "s" + array[1] 
+
 end
